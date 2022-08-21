@@ -1,0 +1,18 @@
+.homeComponent {
+    background-color: #2B2B2B;
+    color: #FEFC8F;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 14rem;
+    font-size: 48px;
+}
+
+h3 {
+    color: #FFFFFF;
+    animation: blinker 5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+@keyframes blinker { to { opacity: .2; } }
